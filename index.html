@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    <meta
+      name="description"
+      content="Demonstração privada da landing page da Barbearia do Hudson, em Contagem/MG."
+    />
+    <meta name="theme-color" content="#111111" />
+    <title>Barbearia do Hudson | Demonstração</title>
+    <link rel="icon" href="assets/logo-barbearia-hudson.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="#inicio" aria-label="Barbearia do Hudson — início">
+          <img src="assets/logo-barbearia-hudson.png" alt="" width="379" height="373" />
+          <span>Barbearia<br /><strong>do Hudson</strong></span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="menu-principal"
+          aria-label="Abrir menu"
+          data-menu-toggle
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="main-nav" id="menu-principal" aria-label="Navegação principal" data-menu>
+          <a href="#sobre">A barbearia</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#galeria">Galeria</a>
+          <a href="#contato">Contato</a>
+          <a class="nav-cta" href="tel:+5531996735806">Ligar agora</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img
+            src="assets/equipe-barbearia.png"
+            alt=""
+            width="557"
+            height="567"
+            fetchpriority="high"
+          />
+        </div>
+        <div class="hero-shade"></div>
+        <div class="container hero-content">
+          <p class="eyebrow"><span></span> Novo Riacho · Contagem</p>
+          <h1 id="hero-title">Mais que um corte.<br /><em>Uma tradição</em><br />de confiança.</h1>
+          <p class="hero-copy">
+            Corte e barba em um espaço dedicado ao cuidado masculino, na Rua Rio Hudson.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://wa.me/5531996735806" target="_blank" rel="noreferrer">
+              Falar no WhatsApp
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5" /></svg>
+            </a>
+            <a class="button button-ghost" href="#galeria">Ver trabalhos</a>
+          </div>
+        </div>
+        <div class="hero-rating" aria-label="Avaliação informada do Google: 4,8 de 5, com 323 avaliações">
+          <span class="rating-score">4,8</span>
+          <span class="rating-details"><b aria-hidden="true">★★★★★</b> no Google<br /><small>323 avaliações</small></span>
+        </div>
+        <div class="hero-index" aria-hidden="true">01</div>
+      </section>
+
+      <section class="intro section" id="sobre" aria-labelledby="sobre-title">
+        <div class="container intro-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow dark"><span></span> A barbearia</p>
+            <h2 id="sobre-title">Seu estilo,<br /><em>bem cuidado.</em></h2>
+          </div>
+          <div class="intro-copy reveal">
+            <p class="lead">
+              A Barbearia do Hudson é um espaço voltado para corte e barba, no bairro Novo Riacho, em Contagem.
+            </p>
+            <p>
+              Conheça o ambiente, veja alguns trabalhos reais e fale diretamente com a equipe para consultar disponibilidade.
+            </p>
+            <div class="address-line">
+              <span class="address-number">702</span>
+              <span><strong>Rua Rio Hudson</strong><br />Novo Riacho · Contagem/MG</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="photo-break" aria-label="Ambiente da Barbearia do Hudson">
+        <img
+          src="assets/ambiente-amplo.png"
+          alt="Interior da barbearia com profissionais atendendo clientes diante dos espelhos"
+          width="809"
+          height="577"
+          loading="lazy"
+        />
+        <div class="photo-break-label" aria-hidden="true">
+          <span>Detalhe</span>
+          <strong>Precisão</strong>
+        </div>
+      </section>
+
+      <section class="services section" id="servicos" aria-labelledby="servicos-title">
+        <div class="container">
+          <div class="services-top reveal">
+            <div class="section-heading light">
+              <p class="eyebrow"><span></span> Serviços</p>
+              <h2 id="servicos-title">O cuidado que<br /><em>faz diferença.</em></h2>
+            </div>
+            <p>Sem tabela de valores nesta demonstração. Consulte preços e disponibilidade diretamente com a barbearia.</p>
+          </div>
+
+          <div class="service-list reveal">
+            <article class="service-row">
+              <span class="service-number">01</span>
+              <div>
+                <h3>Corte</h3>
+                <p>Do clássico ao contemporâneo, com atenção ao acabamento.</p>
+              </div>
+              <img src="assets/corte-degrade.png" alt="Corte masculino com degradê e acabamento lateral" width="559" height="566" loading="lazy" />
+            </article>
+            <article class="service-row">
+              <span class="service-number">02</span>
+              <div>
+                <h3>Barba</h3>
+                <p>Cuidado e definição para compor o visual.</p>
+              </div>
+              <img src="assets/corte-e-barba.png" alt="Resultado de corte com barba bem definida" width="444" height="567" loading="lazy" />
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section" id="galeria" aria-labelledby="galeria-title">
+        <div class="container">
+          <div class="gallery-heading reveal">
+            <div class="section-heading">
+              <p class="eyebrow dark"><span></span> Trabalhos reais</p>
+              <h2 id="galeria-title">Estilos que<br /><em>falam por si.</em></h2>
+            </div>
+            <p>Seleção de cortes e momentos registrados na Barbearia do Hudson.</p>
+          </div>
+
+          <div class="gallery-grid reveal" data-gallery>
+            <button class="gallery-item gallery-item--tall" type="button" data-full="assets/atendimento-cadeira.png" data-caption="Atendimento na Barbearia do Hudson">
+              <img src="assets/atendimento-cadeira.png" alt="Barbeiro atendendo um cliente na cadeira" width="370" height="512" loading="lazy" />
+              <span>Atendimento</span>
+            </button>
+            <button class="gallery-item" type="button" data-full="assets/corte-risca.png" data-caption="Corte com risca lateral e acabamento preciso">
+              <img src="assets/corte-risca.png" alt="Corte masculino com risca lateral" width="556" height="567" loading="lazy" />
+              <span>Acabamento</span>
+            </button>
+            <button class="gallery-item gallery-item--wide" type="button" data-full="assets/profissional-em-acao.png" data-caption="Profissional durante um atendimento">
+              <img src="assets/profissional-em-acao.png" alt="Profissional realizando um corte diante do espelho" width="455" height="574" loading="lazy" />
+              <span>Em ação</span>
+            </button>
+            <button class="gallery-item" type="button" data-full="assets/corte-platinado.png" data-caption="Corte platinado">
+              <img src="assets/corte-platinado.png" alt="Corte curto com cabelo platinado" width="555" height="564" loading="lazy" />
+              <span>Personalidade</span>
+            </button>
+            <button class="gallery-item gallery-item--tall" type="button" data-full="assets/corte-infantil.png" data-caption="Corte com acabamento e divisão lateral">
+              <img src="assets/corte-infantil.png" alt="Corte de cabelo com divisão lateral bem marcada" width="556" height="567" loading="lazy" />
+              <span>Estilo</span>
+            </button>
+            <button class="gallery-item" type="button" data-full="assets/corte-azul.png" data-caption="Corte com mechas azuis">
+              <img src="assets/corte-azul.png" alt="Corte de cabelo com mechas azuis" width="552" height="560" loading="lazy" />
+              <span>Expressão</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="rating-section" aria-labelledby="avaliacoes-title">
+        <div class="rating-photo">
+          <img src="assets/interior-barbearia.png" alt="Vista interna da Barbearia do Hudson" width="454" height="574" loading="lazy" />
+        </div>
+        <div class="rating-content reveal">
+          <p class="eyebrow"><span></span> Avaliações do Google</p>
+          <div class="big-rating" aria-hidden="true">4,8<small>/5</small></div>
+          <h2 id="avaliacoes-title">323 avaliações informadas.</h2>
+          <div class="stars" aria-label="4,8 de 5 estrelas">★★★★★</div>
+          <p>Nota e quantidade de avaliações fornecidas para esta demonstração.</p>
+        </div>
+      </section>
+
+      <section class="contact section" id="contato" aria-labelledby="contato-title">
+        <div class="container contact-grid">
+          <div class="contact-title reveal">
+            <p class="eyebrow"><span></span> Entre em contato</p>
+            <h2 id="contato-title">Seu próximo<br /><em>visual começa</em><br />aqui.</h2>
+          </div>
+
+          <div class="contact-card reveal">
+            <div class="contact-item">
+              <span>Telefone e WhatsApp</span>
+              <a href="tel:+5531996735806">(31) 99673-5806</a>
+            </div>
+            <div class="contact-item">
+              <span>Endereço</span>
+              <a href="https://www.google.com/maps/search/?api=1&query=Rua+Rio+Hudson+702+Novo+Riacho+Contagem+MG" target="_blank" rel="noreferrer">
+                Rua Rio Hudson, 702<br />Novo Riacho · Contagem/MG
+              </a>
+            </div>
+            <a class="button button-primary contact-button" href="https://wa.me/5531996735806" target="_blank" rel="noreferrer">
+              Conversar no WhatsApp
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5" /></svg>
+            </a>
+            <p class="contact-note">Consulte diretamente valores, horários e disponibilidade.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <a class="footer-brand" href="#inicio" aria-label="Voltar ao início">
+          <img src="assets/logo-barbearia-hudson.png" alt="Barbearia Hudson" width="379" height="373" />
+        </a>
+        <div>
+          <p>Rua Rio Hudson, 702 · Novo Riacho<br />Contagem/MG</p>
+          <a href="tel:+5531996735806">(31) 99673-5806</a>
+        </div>
+        <a class="back-top" href="#inicio">Voltar ao topo ↑</a>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span data-year></span> Barbearia do Hudson</span>
+        <span>Projeto demonstrativo privado · não publicado</span>
+      </div>
+    </footer>
+
+    <dialog class="lightbox" data-lightbox aria-label="Visualização ampliada da galeria">
+      <button type="button" class="lightbox-close" aria-label="Fechar imagem" data-lightbox-close>×</button>
+      <figure>
+        <img src="" alt="" data-lightbox-image />
+        <figcaption data-lightbox-caption></figcaption>
+      </figure>
+    </dialog>
+
+    <a class="whatsapp-float" href="https://wa.me/5531996735806" target="_blank" rel="noreferrer" aria-label="Falar com a Barbearia do Hudson pelo WhatsApp">
+      <svg aria-hidden="true" viewBox="0 0 32 32"><path d="M16 3a12.5 12.5 0 0 0-10.8 18.8L3.5 28l6.4-1.7A12.5 12.5 0 1 0 16 3Zm0 22.8a10.2 10.2 0 0 1-5.2-1.4l-.4-.2-3.8 1 1-3.7-.2-.4A10.3 10.3 0 1 1 16 25.8Zm5.7-7.7c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1-1.9-.9-3.2-1.7-4.5-3.9-.3-.5.3-.5.9-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.6-.5-.8-.5h-.6c-.2 0-.6.1-.9.4-.3.4-1.2 1.2-1.2 2.9 0 1.7 1.2 3.3 1.4 3.5.2.2 2.4 3.7 5.9 5.2 2.2.9 3 .9 4.1.8.7-.1 1.8-.8 2.1-1.5.3-.7.3-1.3.2-1.5-.2-.3-.5-.4-.8-.5Z" /></svg>
+    </a>
+  </body>
+</html>
