@@ -1,4 +1,4 @@
-# Barbearia do Hudson — demonstração privada
+# Barbearia do Hudson — demonstração online
 
 Landing page estática em HTML, CSS e JavaScript puros. Não há backend, formulário, rastreamento ou dependências externas.
 
@@ -17,4 +17,4 @@ Depois acesse `http://localhost:4173`.
 - O projeto inclui `noindex`, `nofollow` e `robots.txt` com bloqueio de indexação.
 - A nota 4,8/5, as 323 avaliações, o endereço e o telefone foram informados no briefing.
 - Preços, depoimentos e horários não foram adicionados.
-- O projeto não foi publicado.
+- O site está publicado no GitHub Pages para compartilhamento público.
